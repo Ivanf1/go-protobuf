@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "github.com/Ivanf1/go-protobuf";
+
+message Device {
+  int32 id = 1;
+  string name = 2;
+}
